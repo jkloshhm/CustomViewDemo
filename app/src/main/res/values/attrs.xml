@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--下拉刷新的状态栏-->
+    <declare-styleable name="LoadingViewCircularRing">
+        <attr name="circleColor" format="color" />
+        <attr name="ringColor" format="color" />
+        <attr name="circleStrokeWidth" format="dimension" />
+        <attr name="ringStrokeWidth" format="dimension" />
+    </declare-styleable>
+    <!--通用顶部布局-->
+    <declare-styleable name="CommonTopView">
+        <attr name="background" format="reference" />
+    </declare-styleable>
+
+    <!--图片资源-->
+    <attr name="clearDrawable" format="reference" />
+    <attr name="visibleDrawable" format="reference" />
+    <attr name="invisibleDrawable" format="reference" />
+    <!-- 是否显示清除图标 -->
+    <attr name="clearTogEnabled" format="boolean" />
+    <!-- 是否显示密码明文切换图标 -->
+    <attr name="passwordTogEnabled" format="boolean" />
+    <!--按钮宽度大小-->
+    <attr name="BtnWidth" format="dimension" />
+    <!--按钮间距大小-->
+    <attr name="BtnSpacing" format="dimension" />
+    <!--内部提示-->
+    <attr name="edit_hint" format="string" />
+
+    <attr name="underlinePadding" format="dimension" />
+
+    <declare-styleable name="InputEditText">
+        <!--图片资源-->
+        <attr name="clearDrawable" />
+        <attr name="visibleDrawable" />
+        <attr name="invisibleDrawable" />
+        <!-- 是否显示清除图标 -->
+        <attr name="clearTogEnabled" />
+        <!-- 是否显示密码明文切换图标 -->
+        <attr name="passwordTogEnabled" />
+        <!--按钮宽度大小-->
+        <attr name="BtnWidth" />
+        <!--按钮间距大小-->
+        <attr name="BtnSpacing" />
+        <!--内部提示-->
+        <attr name="edit_hint" />
+
+        <attr name="underlinePadding" />
+    </declare-styleable>
+
+    <declare-styleable name="ClearEditText">
+        <!--图片资源-->
+        <attr name="clearDrawable" />
+        <attr name="visibleDrawable" />
+        <attr name="invisibleDrawable" />
+        <!-- 是否显示清除图标 -->
+        <attr name="clearTogEnabled" />
+        <!-- 是否显示密码明文切换图标 -->
+        <attr name="passwordTogEnabled" />
+        <!--按钮宽度大小-->
+        <attr name="BtnWidth" />
+        <!--按钮间距大小-->
+        <attr name="BtnSpacing" />
+        <attr name="underlinePadding" />
+    </declare-styleable>
+
+    <!--简历页面通用cell-->
+    <declare-styleable name="resumeItemStub">
+        <attr name="stubTitle" format="string" />
+        <attr name="stubTitleDrawable" format="reference" />
+        <attr name="stubLayout" format="integer" />
+    </declare-styleable>
+
+    <!--开屏倒计时自定义ProgressBar  by guojian 20171011-->
+    <attr name="firstColor" format="color" />
+    <attr name="secondColor" format="color" />
+    <attr name="circleWith" format="dimension" />
+    <attr name="speed" format="integer" />
+
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWith" />
+        <attr name="speed" />
+    </declare-styleable>
+
+
+
+    <!--自动换行的标签容器  by longlong.bu 20180427-->
+    <declare-styleable name="LineBreakLayout">
+        <!--标签之间左右距离-->
+        <attr name="leftAndRightSpace" format="dimension" />
+        <!--标签行距-->
+        <attr name="rowSpace" format="dimension" />
+        <!--标签布局-->
+        <attr name="labelLayout" format="reference" />
+        <attr name="labelLayout2" format="reference" />
+        <!--对齐方式 !-->
+        <attr name="labelGravity" format="enum">
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="center" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+
+    <!--圆角图片-->
+    <declare-styleable name="RoundImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <!--地区选择侧边 定位栏 -->
+    <declare-styleable name="WaveSideBar">
+        <attr name="textColor" format="color|reference" />
+        <attr name="backgroundColor" format="color|reference" />
+        <attr name="chooseTextColor" format="color|reference" />
+        <attr name="lettersTextSize" format="dimension" />
+        <attr name="hintTextSize" format="dimension" />
+        <attr name="waveRadius" format="dimension" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="letterArrayNum" format="boolean"/>
+    </declare-styleable>
+</resources>

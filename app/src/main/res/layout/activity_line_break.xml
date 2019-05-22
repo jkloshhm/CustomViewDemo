@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".LineBreakActivity">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_add" />
+
+
+    <com.example.jkl.customviewdemo.LineBreakLayout
+        android:id="@+id/line_break_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:labelLayout="@layout/item_job_subsrcibe_label_x"
+        app:leftAndRightSpace="12dp"
+        app:rowSpace="16dp" />
+
+    <!--    <com.example.jkl.customviewdemo.LineBreakLayout
+            android:id="@+id/line_break_layout_buxian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:labelLayout="@layout/item_job_subsrcibe_label_x"
+            app:leftAndRightSpace="12dp"
+            app:rowSpace="16dp" />-->
+
+
+</LinearLayout>

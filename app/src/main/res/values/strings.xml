@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomViewDemo</string>
+    <string name="line_break_activity_name">自动换行标签</string>
+    <string name="app_add">添加</string>
+    <string name="button_line_break">自动换行标签</string>
+    <string name="button_line_break1">CustomViewDemo</string>
+    <string name="button_line_break2">CustomViewDemo</string>
+    <string name="button_line_break3">CustomViewDemo</string>
+</resources>
